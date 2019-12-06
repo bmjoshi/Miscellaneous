@@ -1,4 +1,4 @@
-Run the following commands prior to lumi calculations
+Lgin to lxplus node and run the following commands prior to lumi calculations
 ```
 export PATH=$HOME/.local/bin:/cvmfs/cms-bril.cern.ch/brilconda/bin:$PATH
 export PATH=$HOME/.local/bin:/nfshome0/lumipro/brilconda/bin:$PATH
