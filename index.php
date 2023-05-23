@@ -1,7 +1,6 @@
 <html>
 <head>
-<title><?php echo "Bhargav Joshi";
-	echo getcwd(); ?></title>
+<title><?php echo getcwd(); ?></title>
 
 <style type='text/css'>
 
@@ -65,8 +64,8 @@ a:hover { text-decoration: underline; color: rgb(255,80,80); }
 <body>
 <div clas="header_bar">
 <div class="header">
-<h1><?php echo "Bhargav Joshi\n"?></h1>
-<h2><a name="plots">Plots</a></h2>
+<h1><?php echo "My Directory\n"?></h1>
+<h2><a name="Files and plots">Plots</a></h2>
 <p><form>Filter: <input type="text" name="match" size="30" value="<?php if (isset($_GET['match'])) print htmlspecialchars($_GET['match']);  ?>" /><input type="Submit" value="Go" /></form></p>
 </div>
 </div>
